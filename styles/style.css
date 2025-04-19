@@ -25,7 +25,10 @@
 .very-light-gray {
   color: rgb(114, 114, 114);
 }
-
+/* orange */
+.orange {
+  color: rgb(255, 144, 14);
+}
 .bg-light {
   background-color: rgba(255, 144, 14, 0.1);
 }
@@ -83,10 +86,47 @@
   font-weight: 400;
   padding-bottom: 32px;
 }
-.banner-content{
-    margin-bottom: 50px;
+.banner-content {
+  margin-bottom: 50px;
 }
-.banner-img{
-    width: 100%;
-    margin-bottom: 30px;
+.banner-img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+/* TEAM AND FEATURES RELATED STYLES  */
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+main > section {
+  margin-top: 120px;
+}
+.teams {
+  align-items: center;
+}
+.team-img-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.our-features {
+  margin-left: 130px;
+  max-width: 537px;
+}
+.features-title {
+  font-size: 45px;
+  font-weight: 700;
+}
+.features-description {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+/* Responsive media query */
+@media screen and (max-width: 576px) {
+  .navbar,
+  .nav-links {
+    flex-direction: column;
+  }
 }
