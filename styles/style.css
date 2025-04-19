@@ -1,9 +1,92 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 .work-sans-font {
-    font-family: "Work Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-  }
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* shared styles */
+.flex {
+  display: flex;
+}
+
+/* dark-1 */
+.gray {
+  color: rgb(19, 19, 19);
+}
+/* Dark-2 */
+.light-gray {
+  color: rgb(66, 66, 66);
+}
+
+/* Dark-3  */
+.very-light-gray {
+  color: rgb(114, 114, 114);
+}
+
+.bg-light {
+  background-color: rgba(255, 144, 14, 0.1);
+}
+
+.btn-primary {
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  border-style: none;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600;
+  background: rgb(255, 144, 14);
+  padding: 20px 25px;
+}
+
+/* header section */
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  list-style: none;
+  margin-right: 30px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+}
+.brand {
+  font-weight: 700;
+  font-size: 38px;
+}
+
+.navbar,
+.banner {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Banner style  */
+.banner-content {
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+}
+.banner-tile {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.banner-description {
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 32px;
+}
+.banner-content{
+    margin-bottom: 50px;
+}
+.banner-img{
+    width: 100%;
+    margin-bottom: 30px;
+}
