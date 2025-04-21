@@ -125,7 +125,11 @@ main > section {
 }
 /* <!-- features will enjoy --> */
 .enjoy-content {
+  max-width: 1440px;
+  margin: 0 auto;
+  align-items: center;
   gap: 146px;
+  padding-top: 130px;
 }
 .enjoy-container {
   width: 586px;
@@ -162,7 +166,21 @@ main > section {
 #card-img {
   max-width: 708px;
 }
-
+.btn-card {
+  font-weight: 700;
+  width: 342px;
+  border-radius: 8px;
+  background: rgb(255, 144, 14);
+  padding: 46px 42px;
+  margin-left: -50px;
+  margin-top: -100px;
+}
+.year{
+  font-size: 4rem;
+}
+.expe{
+  font-size: 1rem;
+}
 /* SOME FACTS SECTION  */
 .facts-container {
   display: grid;
